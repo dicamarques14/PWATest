@@ -66624,7 +66624,7 @@ s($,"atS","a7f",()=>A.abB())
 s($,"awJ","aic",()=>{var q=B.oV.i(0,200)
 q.toString
 return q})
-s($,"awy","Oh",()=>new A.V3("ws://thedg.servebeer.com","",0,A.alJ()))
+s($,"awy","Oh",()=>new A.V3("wss://thedg.servebeer.com","",0,A.alJ()))
 s($,"atV","agy",()=>new A.E())})();(function nativeSupport(){!function(){var s=function(a){var m={}
 m[a]=1
 return Object.keys(hunkHelpers.convertToFastObject(m))[0]}
