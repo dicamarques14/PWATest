@@ -1,6 +1,6 @@
 {
-    "name": "PWA Demo",
-    "short_name": "pwa_demo",
+    "name": "Abre Portões App",
+    "short_name": "Abre Portões",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
