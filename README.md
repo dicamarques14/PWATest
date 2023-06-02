@@ -1,2 +1,0 @@
-# PWATest
-Testing flutter pwa
