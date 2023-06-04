@@ -16,7 +16,7 @@ var dt=Object.defineProperty;var ut=(o,t,e)=>t in o?dt(o,t,{enumerable:!0,config
  * @license
  * Copyright 2017 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
- */var q,I;class S extends g{constructor(){super(...arguments),this.renderOptions={host:this},this._$Do=void 0}createRenderRoot(){var t,e;const i=super.createRenderRoot();return(t=(e=this.renderOptions).renderBefore)!==null&&t!==void 0||(e.renderBefore=i.firstChild),i}update(t){const e=this.render();this.hasUpdated||(this.renderOptions.isConnected=this.isConnected),super.update(t),this._$Do=Pt(e,this.renderRoot,this.renderOptions)}connectedCallback(){var t;super.connectedCallback(),(t=this._$Do)===null||t===void 0||t.setConnected(!0)}disconnectedCallback(){var t;super.disconnectedCallback(),(t=this._$Do)===null||t===void 0||t.setConnected(!1)}render(){return y}}S.finalized=!0,S._$litElement$=!0,(q=globalThis.litElementHydrateSupport)===null||q===void 0||q.call(globalThis,{LitElement:S});const nt=globalThis.litElementPolyfillSupport;nt==null||nt({LitElement:S});((I=globalThis.litElementVersions)!==null&&I!==void 0?I:globalThis.litElementVersions=[]).push("3.3.2");class Ut extends S{constructor(){super();k(this,"clientMqtt");k(this,"values");console.log("my-elem:construct"),this.docsHint="Click on the Vite and Lit logos to learn more",this.count=0,this.connMqtt()}static get properties(){return{docsHint:{type:String},count:{type:Number}}}async connMqtt(){const e="mqttjs_"+Math.random().toString(16).substr(2,8);this.clientMqtt=pt().with_websock("wss://thedg.servebeer.com:9090").with_autoreconnect(),await this.clientMqtt.connect({client_id:e,username:"cam1",password:"cam1"})}render(){return console.log("render",this.values),this.values!=null?(console.log(this.values),it`
+ */var q,I;class S extends g{constructor(){super(...arguments),this.renderOptions={host:this},this._$Do=void 0}createRenderRoot(){var t,e;const i=super.createRenderRoot();return(t=(e=this.renderOptions).renderBefore)!==null&&t!==void 0||(e.renderBefore=i.firstChild),i}update(t){const e=this.render();this.hasUpdated||(this.renderOptions.isConnected=this.isConnected),super.update(t),this._$Do=Pt(e,this.renderRoot,this.renderOptions)}connectedCallback(){var t;super.connectedCallback(),(t=this._$Do)===null||t===void 0||t.setConnected(!0)}disconnectedCallback(){var t;super.disconnectedCallback(),(t=this._$Do)===null||t===void 0||t.setConnected(!1)}render(){return y}}S.finalized=!0,S._$litElement$=!0,(q=globalThis.litElementHydrateSupport)===null||q===void 0||q.call(globalThis,{LitElement:S});const nt=globalThis.litElementPolyfillSupport;nt==null||nt({LitElement:S});((I=globalThis.litElementVersions)!==null&&I!==void 0?I:globalThis.litElementVersions=[]).push("3.3.2");class Ut extends S{constructor(){super();k(this,"clientMqtt");k(this,"values");console.log("my-elem:construct"),this.docsHint="Click on the Vite and Lit logos to learn more",this.count=0,this.connMqtt()}static get properties(){return{docsHint:{type:String},count:{type:Number}}}async connMqtt(){const e="mqttjs_"+Math.random().toString(16).substr(2,8);this.clientMqtt=pt().with_websock("wss://thedg.servebeer.com:9090").with_autoreconnect(),await this.clientMqtt.connect({client_id:e,username:"cam1",password:"cam1"})}render(){return this.values!=null?it`
         <p style="font-size:2em">
         ${this.values.appPerfil.nome}
         </p>
@@ -29,7 +29,7 @@ var dt=Object.defineProperty;var ut=(o,t,e)=>t in o?dt(o,t,{enumerable:!0,config
           </button> 
         </div>
         <p class="read-the-docs">${this.docsHint}</p>
-      `):it`
+      `:it`
         <div class="card">
           <button @click=${this._onClick2} part="button">
             Abrir Portão 🚪
@@ -45,7 +45,7 @@ var dt=Object.defineProperty;var ut=(o,t,e)=>t in o?dt(o,t,{enumerable:!0,config
       }
 
       .logo {
-        height: 6em;
+        height: 13em;
         padding: 1.5em;
         will-change: filter;
         transition: filter 300ms;
