@@ -6,5 +6,7 @@
     "tipoUser": "cliente",
     "mqttHost": "https://thedg.servebeer.com:9090",
     "mqttUsername": "cam1",
-    "mqttPassword": "cam1"
-  }
+    "mqttPassword": "cam1",
+    "mqttTopicAbrir":"main/gate/",
+    "mqttPayload":"pw:Azevinho"
+}
