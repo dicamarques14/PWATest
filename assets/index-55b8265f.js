@@ -59,7 +59,6 @@ var dt=Object.defineProperty;var ut=(o,t,e)=>t in o?dt(o,t,{enumerable:!0,config
         background-color: #1a1a1a;
         cursor: pointer;
         transition: border-color 0.25s;
-        height: 3em;
       }
       button:hover {
         border-color: #646cff;
